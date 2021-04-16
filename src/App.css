@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.App
+{
+      display:flex;
+	  flexDirection:row;
+	}
+	.left
+	{
+	width:40vw;
+	margin:4rem 5rem;
+	}
+	.right
+	{
+	width:60vw;
+	margin:2rem 5rem;
+	}
+.hypimg
+{
+	position:relative;
+	height:100%;
+	width:70%;
+}
+#signup
+{
+	width:90%;
+	margin:1rem 3rem;
+	font-size:1.3rem;
+	padding:0.5rem;
+	border-radius:0.7rem;
+	background-color:#8000ff;
+	color:#ffffff;
+}
+#signin
+{
+	width:70%;
+	margin:1rem 3rem;
+	font-size:1rem;
+	padding:0.4rem;
+    border-radius:0.7rem;
+	color:#8000ff;
+	font-weight:bold;
+	background-color:#ffffff;
+}
+label
+{
+	display:block;
+	text-align:left;
+	margin:0.8rem 1.5rem;
+	color:'#333333';
+}
+input
+{
+	width:90%;
+	border-style:none none groove none;
+	font-size:1rem;
+}
+input:focus{
+	outline:none;
+	background-color:#ffffff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active{
+	transition:background-color 5000s;
+	-webkit-text-fill-color:#000000 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form
+{
+	padding:2rem;
+	border-style:none groove groove groove;
+	box-shadow:0.2rem 0.2rem #737373;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+[data-feedback].error {
+  color:#8000ff;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+[data-feedback].warning {
+  color:#8000ff;
 }
