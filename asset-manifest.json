@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hyperlearn/static/css/main.f6eabeb5.chunk.css",
+    "main.js": "/hyperlearn/static/js/main.2ed22dab.chunk.js",
+    "main.js.map": "/hyperlearn/static/js/main.2ed22dab.chunk.js.map",
+    "runtime-main.js": "/hyperlearn/static/js/runtime-main.5b0988a2.js",
+    "runtime-main.js.map": "/hyperlearn/static/js/runtime-main.5b0988a2.js.map",
+    "static/css/2.5ddc26a8.chunk.css": "/hyperlearn/static/css/2.5ddc26a8.chunk.css",
+    "static/js/2.25571735.chunk.js": "/hyperlearn/static/js/2.25571735.chunk.js",
+    "static/js/2.25571735.chunk.js.map": "/hyperlearn/static/js/2.25571735.chunk.js.map",
+    "index.html": "/hyperlearn/index.html",
+    "static/css/2.5ddc26a8.chunk.css.map": "/hyperlearn/static/css/2.5ddc26a8.chunk.css.map",
+    "static/css/main.f6eabeb5.chunk.css.map": "/hyperlearn/static/css/main.f6eabeb5.chunk.css.map",
+    "static/js/2.25571735.chunk.js.LICENSE.txt": "/hyperlearn/static/js/2.25571735.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/hyperlearn/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/hyperlearn.f8c0421a.png": "/hyperlearn/static/media/hyperlearn.f8c0421a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b0988a2.js",
+    "static/css/2.5ddc26a8.chunk.css",
+    "static/js/2.25571735.chunk.js",
+    "static/css/main.f6eabeb5.chunk.css",
+    "static/js/main.2ed22dab.chunk.js"
+  ]
+}
