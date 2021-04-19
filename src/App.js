@@ -28,7 +28,7 @@ class App extends React.Component {
     })  
   }
 
-  contactSubmit = e => {
+  onSubmithandle = e => {
     e.preventDefault();
     this.form.validateFields();
 
@@ -110,7 +110,7 @@ class App extends React.Component {
 								</FieldFeedback>
 						</FieldFeedbacks>
 		            <Link to="/home">
-					<input type='submit' value='Sign Up' id='signup'/>
+					<input type='submit' value='Sign Up' id='signup' onClick={this.onSubmithandle}/>
 					</Link>
 					<h4 style={{color:'#333333'}}>Already have an Account?</h4>
 					<button id='signin'> Sign In</button>

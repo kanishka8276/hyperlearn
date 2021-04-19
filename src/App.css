@@ -87,3 +87,22 @@ form
 [data-feedback].warning {
   color:#8000ff;
 }
+
+@media only screen and (max-width:768px){
+	.App
+{
+      display:flex;
+	  flexDirection:column;
+	}
+	.
+	.left
+	{
+	width:100vw;
+	margin:4rem 5rem;
+	}
+	.right
+	{
+	width:100vw;
+	margin:2rem 5rem;
+	}
+}
