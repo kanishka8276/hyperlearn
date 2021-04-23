@@ -5,13 +5,14 @@
 	}
 	.left
 	{
-	width:40vw;
-	margin:4rem 5rem;
-	}
+    float: left;
+    width: 40%;
+    }
 	.right
 	{
-	width:60vw;
-	margin:2rem 5rem;
+	width:60%;
+	float:right;
+	margin:1% 5%;
 	}
 .hypimg
 {
@@ -22,7 +23,7 @@
 #signup
 {
 	width:90%;
-	margin:1rem 3rem;
+	margin:1% 3%;
 	font-size:1.3rem;
 	padding:0.5rem;
 	border-radius:0.7rem;
@@ -76,7 +77,8 @@ input[type=number] {
 
 form
 {
-	padding:2rem;
+	padding:2%;
+	margin:9%;
 	border-style:none groove groove groove;
 	box-shadow:0.2rem 0.2rem #737373;
 }
@@ -88,23 +90,28 @@ form
   color:#8000ff;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:800px){
 	.App
 {
       display:block;
 	}
 	.left
 	{
-	width:100vw;
-	margin:4rem 2rem;
+	width:100%;
+	margin:4% 2%;
+	float:center;
 	}
 	.right
 	{
-	width:100vw;
-	margin:2rem 2rem;
+	width:100%;
+	margin:0.5% 1% 2% 2%;
+	float:center;
 	}
 	#signup
 {
-	margin:1rem 2rem;
+	margin:1% 1%;
+}
+form{
+	margin:5%;
 }
 }
